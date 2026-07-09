@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="HlZo_s4fRJT5FEMyY9v1" name="Page-1">
+    <mxGraphModel dx="732" dy="1414" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="esUjjLD-Y3Hy2kkuloNE-17" edge="1" parent="1" source="esUjjLD-Y3Hy2kkuloNE-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="esUjjLD-Y3Hy2kkuloNE-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="esUjjLD-Y3Hy2kkuloNE-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="START" vertex="1">
+          <mxGeometry height="60" width="120" x="20" y="-673" as="geometry" />
+        </mxCell>
+        <mxCell id="esUjjLD-Y3Hy2kkuloNE-3" edge="1" parent="1" source="esUjjLD-Y3Hy2kkuloNE-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" target="esUjjLD-Y3Hy2kkuloNE-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="esUjjLD-Y3Hy2kkuloNE-21" edge="1" parent="1" source="esUjjLD-Y3Hy2kkuloNE-4" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="esUjjLD-Y3Hy2kkuloNE-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="esUjjLD-Y3Hy2kkuloNE-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Read Dataset" vertex="1">
+          <mxGeometry height="60" width="120" x="18" y="-252" as="geometry" />
+        </mxCell>
+        <mxCell id="esUjjLD-Y3Hy2kkuloNE-19" edge="1" parent="1" source="esUjjLD-Y3Hy2kkuloNE-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="esUjjLD-Y3Hy2kkuloNE-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="esUjjLD-Y3Hy2kkuloNE-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Download Dataset" vertex="1">
+          <mxGeometry height="60" width="120" x="20" y="-465" as="geometry" />
+        </mxCell>
+        <mxCell id="esUjjLD-Y3Hy2kkuloNE-18" edge="1" parent="1" source="esUjjLD-Y3Hy2kkuloNE-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="esUjjLD-Y3Hy2kkuloNE-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="esUjjLD-Y3Hy2kkuloNE-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Environment Setup" vertex="1">
+          <mxGeometry height="60" width="120" x="20" y="-566" as="geometry" />
+        </mxCell>
+        <mxCell id="esUjjLD-Y3Hy2kkuloNE-23" edge="1" parent="1" source="esUjjLD-Y3Hy2kkuloNE-8" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="esUjjLD-Y3Hy2kkuloNE-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="esUjjLD-Y3Hy2kkuloNE-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Data Preprocessing" vertex="1">
+          <mxGeometry height="60" width="120" x="20" y="-17" as="geometry" />
+        </mxCell>
+        <mxCell id="esUjjLD-Y3Hy2kkuloNE-24" edge="1" parent="1" source="esUjjLD-Y3Hy2kkuloNE-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="esUjjLD-Y3Hy2kkuloNE-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="esUjjLD-Y3Hy2kkuloNE-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Split Train/Test Data" vertex="1">
+          <mxGeometry height="60" width="120" x="18" y="102" as="geometry" />
+        </mxCell>
+        <mxCell id="esUjjLD-Y3Hy2kkuloNE-25" edge="1" parent="1" source="esUjjLD-Y3Hy2kkuloNE-10" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="esUjjLD-Y3Hy2kkuloNE-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="esUjjLD-Y3Hy2kkuloNE-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Train ML Models" vertex="1">
+          <mxGeometry height="60" width="120" x="16" y="221" as="geometry" />
+        </mxCell>
+        <mxCell id="esUjjLD-Y3Hy2kkuloNE-20" edge="1" parent="1" source="esUjjLD-Y3Hy2kkuloNE-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="esUjjLD-Y3Hy2kkuloNE-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="esUjjLD-Y3Hy2kkuloNE-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Import Libraries" vertex="1">
+          <mxGeometry height="60" width="120" x="20" y="-364" as="geometry" />
+        </mxCell>
+        <mxCell id="esUjjLD-Y3Hy2kkuloNE-22" edge="1" parent="1" source="esUjjLD-Y3Hy2kkuloNE-12" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="esUjjLD-Y3Hy2kkuloNE-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="esUjjLD-Y3Hy2kkuloNE-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Exploratory Data Analysis" vertex="1">
+          <mxGeometry height="60" width="120" x="18" y="-134" as="geometry" />
+        </mxCell>
+        <mxCell id="esUjjLD-Y3Hy2kkuloNE-29" edge="1" parent="1" source="esUjjLD-Y3Hy2kkuloNE-13" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="esUjjLD-Y3Hy2kkuloNE-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="esUjjLD-Y3Hy2kkuloNE-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Build Flask Application" vertex="1">
+          <mxGeometry height="60" width="120" x="16" y="551" as="geometry" />
+        </mxCell>
+        <mxCell id="esUjjLD-Y3Hy2kkuloNE-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="END" vertex="1">
+          <mxGeometry height="60" width="120" x="18" y="641" as="geometry" />
+        </mxCell>
+        <mxCell id="esUjjLD-Y3Hy2kkuloNE-28" edge="1" parent="1" source="esUjjLD-Y3Hy2kkuloNE-15" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="esUjjLD-Y3Hy2kkuloNE-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="esUjjLD-Y3Hy2kkuloNE-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Save Best Model" vertex="1">
+          <mxGeometry height="60" width="120" x="16" y="439" as="geometry" />
+        </mxCell>
+        <mxCell id="esUjjLD-Y3Hy2kkuloNE-26" edge="1" parent="1" source="esUjjLD-Y3Hy2kkuloNE-16" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="esUjjLD-Y3Hy2kkuloNE-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="esUjjLD-Y3Hy2kkuloNE-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&#xa;Evaluate Models&#xa;&#xa;" vertex="1">
+          <mxGeometry height="60" width="120" x="16" y="332" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

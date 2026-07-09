@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Credit Card Approval Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Credit Card Approval Prediction</h2>
+
+<form action="/result" method="POST">
+
+<label>Applicant ID</label>
+<input type="number" name="ID" required>
+
+<label>Gender (0 = Female, 1 = Male)</label>
+<input type="number" name="CODE_GENDER" min="0" max="1" required>
+
+<label>Owns Car (0 = No, 1 = Yes)</label>
+<input type="number" name="FLAG_OWN_CAR" min="0" max="1" required>
+
+<label>Owns House (0 = No, 1 = Yes)</label>
+<input type="number" name="FLAG_OWN_REALTY" min="0" max="1" required>
+
+<label>Number of Children</label>
+<input type="number" name="CNT_CHILDREN" required>
+
+<label>Total Annual Income</label>
+<input type="number" name="AMT_INCOME_TOTAL" required>
+
+<label>Income Type (Encoded Value)</label>
+<input type="number" name="NAME_INCOME_TYPE" required>
+
+<label>Education Type (Encoded Value)</label>
+<input type="number" name="NAME_EDUCATION_TYPE" required>
+
+<label>Family Status (Encoded Value)</label>
+<input type="number" name="NAME_FAMILY_STATUS" required>
+
+<label>Housing Type (Encoded Value)</label>
+<input type="number" name="NAME_HOUSING_TYPE" required>
+
+<label>Age in Days</label>
+<input type="number" name="DAYS_BIRTH" required>
+
+<label>Employment Days</label>
+<input type="number" name="DAYS_EMPLOYED" required>
+
+<label>Work Phone (0/1)</label>
+<input type="number" name="FLAG_WORK_PHONE" min="0" max="1" required>
+
+<label>Phone (0/1)</label>
+<input type="number" name="FLAG_PHONE" min="0" max="1" required>
+
+<label>Email (0/1)</label>
+<input type="number" name="FLAG_EMAIL" min="0" max="1" required>
+
+<label>Occupation Type (Encoded Value)</label>
+<input type="number" name="OCCUPATION_TYPE" required>
+
+<label>Family Members</label>
+<input type="number" name="CNT_FAM_MEMBERS" required>
+
+<label>Family Size</label>
+<input type="number" name="Family_Size" required>
+
+<label>Months Balance</label>
+<input type="number" name="MONTHS_BALANCE" required>
+
+<label>Status (Encoded Value)</label>
+<input type="number" name="STATUS" required>
+
+<br><br>
+
+<button type="submit">Predict</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
